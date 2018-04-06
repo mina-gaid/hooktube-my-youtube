@@ -1,0 +1,19 @@
+{
+  "name": "HookTube My YouTube",
+  "description": "Auto redirect YouTube links to Hooktube. Bypass ads, country blocks & age restrictions. Watch & Download videos without giving them views. Keep your data private from Google.",
+  "author": "Minymina",
+  "icons": {
+    "180": "icon.png"
+  },
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://www.youtube.com/*",
+    "webRequestBlocking"
+  ],
+  "browser_action": {
+  "default_icon": "icon.png"
+  }
+}
